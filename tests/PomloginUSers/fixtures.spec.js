@@ -37,8 +37,7 @@ const UserData = [
              const loginpage = new LoginPage(page);
             await loginpage.loginuser(user.username, user.password);
 
-            if (user.error){cd $HOME\Desktop
-
+            if (user.error){
 
             const errorMsg = await loginpage.loginerror();    
             
